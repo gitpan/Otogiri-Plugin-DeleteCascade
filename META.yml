@@ -29,14 +29,14 @@ no_index:
 provides:
   Otogiri::Plugin::DeleteCascade:
     file: lib/Otogiri/Plugin/DeleteCascade.pm
-    version: '0.03'
+    version: '0.04'
 requires:
   DBIx::Inspector: '0'
-  Otogiri: '0.11'
+  Otogiri: '0.12'
   Otogiri::Plugin: '0.02'
   perl: '5.008005'
 resources:
   bugtracker: https://github.com/tsucchi/p5-Otogiri-Plugin-DeleteCascade/issues
   homepage: https://github.com/tsucchi/p5-Otogiri-Plugin-DeleteCascade
   repository: git://github.com/tsucchi/p5-Otogiri-Plugin-DeleteCascade.git
-version: '0.03'
+version: '0.04'
